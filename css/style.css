@@ -1,0 +1,119 @@
+/*
+Project Name: HelloIAmJamie.com
+Author: Jamie Cabaccang
+Developer Jamie, myself
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+     color: #000;
+     font-size: 13px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     height: 100%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+
+}
+
+header {
+  background: url(../images/helloiamjamie_bkg.png) no-repeat center top;
+  background-size: cover;
+  min-height: 320px;
+  height: 100%;
+}
+
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  height: 0 auto;
+  font-family: "lust-script-display",sans-serif;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+header h1 {
+  font-family: "lust-script-display",sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 20px 50px;
+}
+
+header h2 {
+  text-align: center;
+  font-weight: 600px;
+  font-size: 24px;
+  padding: 50px;
+}
+
+header h2,
+header h1 {
+  color: #FFF;
+}
+
+.cta {
+  padding: 5px 20px;
+  display: inline-block;
+  margin: 0 auto;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.cta.yellow {
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin: 100px;
+}
+
+
